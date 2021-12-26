@@ -32,7 +32,7 @@
  
  <?php include ("data.php");
 
-$url = "https://news.google.com/rss/search?hl=fr&gl=FR&ceid=FR%3Afr&oc=11&q=data%20science";
+$url = "";
 
 if(isset($_POST['submit'])){
   if($_POST['feedurl'] != ''){
